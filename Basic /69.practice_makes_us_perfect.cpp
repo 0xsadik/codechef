@@ -1,26 +1,28 @@
+
+
+
 #include<iostream>
 using namespace std;
 
 int main()
 {
-    int p1, p2, p3, p4, t, count;
-    cin >> p1 >> p2 >> p3 >> p4;
-    t = 1;
-    count = 0;
-    while(t--) {
-        if (p1 >= 10) {
-            count++;
+    int a[4];
+    for(int i = 0; i < 4; i++) {
+        cin >> a[i];
+    }
+
+    // check 
+    int cnt = 0;
+    for (int i = 0; i < 4; i++) {
+        if (a[i] >= 10) {
+            cnt++;
         }
-        else if (p2 >= 10) {
-            count++;
-        }
-        else if (p3 >= 10) {
-            count++;
-        }
-        else {
-            cout << 0;
-        }
-        cout << count << endl;
+    }
+    if (cnt > 0) {
+        cout << cnt << endl;
+    }
+    else {
+        cout << 0 << endl;
     }
 
     return 0;
