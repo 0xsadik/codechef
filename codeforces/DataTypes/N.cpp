@@ -1,0 +1,18 @@
+// char 
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char x; cin >> x;
+    if (x >= 'a' && x <= 'z') {
+        x -= 32;
+    }
+    else {
+        x += 32;
+    }
+    cout << x << '\n';
+
+    return 0;
+}
