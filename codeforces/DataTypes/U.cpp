@@ -4,15 +4,16 @@ using namespace std;
 int main()
 {
     double num;
-    int numint = num;
-    double res = num - numint;
-    if (res != 0) {
-        cout << "float " << numint << " " << res << '\n';
+    int x;
+    cin >> num;
+    x = num;
+    if (x == num) {
+        cout << "int " << x;
     }
     else {
-        cout << "Int " << numint << '\n';
+        cout << "float " << x << " " << num - x;
     }
-
-
     return 0;
 }
+
+// needa practice 
