@@ -8,5 +8,5 @@ int main()
     int w, h, n;
     cin >> w >> h >> n;
 
-    
+    cout << "and " ; 
 }
