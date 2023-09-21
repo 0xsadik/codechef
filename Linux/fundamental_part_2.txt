@@ -1,1 +1,6 @@
 
+command -  full name - purpose 
+
+touch - touch - create a file 
+mkdir - make directory - create a folder
+cp - copy - copy a file or folder
