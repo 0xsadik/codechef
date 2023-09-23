@@ -1,2 +1,12 @@
 -- let's update and delete stuffs 
 
+UPDATE workers
+SET hourly_pay = 10.23,
+	hire_date = "2023-04-01"
+WHERE employee_id = 5;
+
+SELECT * FROM workers;
+
+
+-- another way to update null field 
+
