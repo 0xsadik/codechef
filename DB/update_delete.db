@@ -21,5 +21,13 @@ SELECT * FROM workers;
 
 -- update specific columns rows 
 
+UPDATE workers
+SET hourly_pay = 10.25;
+
+SELECT * FROM workers;
+
+
+-- delete a row 
+
 
 
