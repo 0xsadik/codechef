@@ -34,5 +34,10 @@ WHERE employee_id = 5;
 SELECT * FROM workers;
 
 
+-- AUTO COMMIT OFF 
+
+SET AUTOCOMMIT = OFF;
+
+
 
 
