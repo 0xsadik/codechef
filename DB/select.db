@@ -16,3 +16,10 @@ FROM workers
 WHERE employee_id = 5;
 
 
+-- find some data using name 
+
+SELECT * 
+FROM workers
+WHERE first_name = "ahm";
+
+
