@@ -45,3 +45,10 @@ FROM workers
 WHERE employee_id != 1;
 
 
+-- TO FIND NULL DATA 
+
+SELECT *
+FROM workers
+WHERE hire_date IS NULL;
+
+
