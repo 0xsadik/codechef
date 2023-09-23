@@ -52,3 +52,9 @@ FROM workers
 WHERE hire_date IS NULL;
 
 
+-- ALL DATA WITHOUT NULL 
+
+SELECT *
+FROM workers
+WHERE hire_date IS NOT NULL;
+
