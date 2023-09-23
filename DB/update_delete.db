@@ -8,5 +8,7 @@ WHERE employee_id = 5;
 SELECT * FROM workers;
 
 
--- another way to update null field 
+-- set specific thing null 
+
+
 
