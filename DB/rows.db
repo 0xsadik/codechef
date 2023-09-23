@@ -1,3 +1,11 @@
 -- inserting row 
 
 SELECT * FROM workers
+
+
+-- inserting rows :
+
+INSERT INTO workers
+VALUES (3, "Ahm", "Fahim", 21.50, "2023-02-03"),
+	   (4, "Shakil", "babu", 30.50, "2023-03-02");
+
