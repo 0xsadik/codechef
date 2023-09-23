@@ -1,0 +1,11 @@
+
+to create databse : 
+    CREATE DATABSE ' database name ' 
+
+to set default schema 
+    USE 'databse name' 
+
+to drop a database 
+    DROP DATABASE 'databse name'
+
+ 
