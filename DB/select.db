@@ -1,2 +1,6 @@
 -- select data from a table 
 
+SELECT first_name, last_name 
+FROM workers;
+
+
