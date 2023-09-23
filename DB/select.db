@@ -33,3 +33,15 @@ WHERE hourly_pay >= 15;
 
 -- date conditional 
 
+SELECT * 
+FROM workers
+WHERE hire_date <= "2023-01-02";
+
+
+-- not equal to 
+
+SELECT *
+FROM workers
+WHERE employee_id != 1;
+
+
