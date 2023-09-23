@@ -11,3 +11,8 @@ FROM workers;
 
 -- find specific id using a clause " WHERE " 
 
+SELECT *
+FROM workers
+WHERE employee_id = 5;
+
+
