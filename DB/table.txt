@@ -1,0 +1,60 @@
+//1. TO CREATE AN EMPLOYEES TABLE 
+
+CREATE TABLE employees(
+    employee_id INT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    hourly_pay DECIMAL(5, 2),
+    hire_date DATE
+);
+
+
+// 2. TO SELECT A TABLE 
+
+
+    SELECT * FROM employees;
+
+
+// 3. rename table 
+
+RENAME TABLE employees TO workers
+
+// 4. To drop a table 
+
+DROP TABLE 'table name';
+
+// 5. to alter a table 
+
+ALTER TABLE 'name of table';
+
+// 6. to rename a column 
+
+ALTER TABLE workers
+RENAME COLUMN phone_number TO email;
+
+ 
+// 7. to modify data type 
+
+ALTER TABLE workers
+MODIFY COLUMN email VARCHAR(30);
+
+
+// 8. to move column of a table 
+
+ALTER TABLE workers 
+MODIFY email VARCHAR(30)
+AFTER last_name;
+
+
+// 8.1. to move column first  
+
+ALTER TABLE workers 
+MODIFY email VARCHAR(30)
+FIRST;
+
+// 9. To drop a column 
+
+ALTER TABLE workers
+DROP COLUMN email;
+
+
