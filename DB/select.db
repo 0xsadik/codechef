@@ -9,3 +9,5 @@ FROM workers;
 SELECT last_name, first_name
 FROM workers;
 
+-- find specific id using a clause " WHERE " 
+
