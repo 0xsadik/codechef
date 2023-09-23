@@ -33,3 +33,6 @@ DELETE FROM workers
 WHERE employee_id = 5;
 SELECT * FROM workers;
 
+
+
+
