@@ -11,3 +11,5 @@ VALUES (3, "Ahm", "Fahim", 21.50, "2023-02-03"),
 
 -- insert data into selected columns into a row 
 
+INSERT INTO workers (employee_id, first_name, last_name)
+VALUES (5, "afifa", "khatun");
