@@ -23,3 +23,11 @@ FROM workers
 WHERE first_name = "ahm";
 
 
+-- conditional finding 
+
+SELECT * 
+FROM workers
+WHERE hourly_pay >= 15;
+
+
+
