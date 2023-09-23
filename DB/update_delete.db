@@ -10,5 +10,16 @@ SELECT * FROM workers;
 
 -- set specific thing null 
 
+UPDATE workers
+SET hire_date = NULL,
+	last_name = "Khatun"
+WHERE employee_id = 5;
+
+SELECT * FROM workers;
+
+
+
+-- update specific columns rows 
+
 
 
