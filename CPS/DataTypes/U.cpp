@@ -11,7 +11,7 @@ int main()
         cout << "int " << x;
     }
     else {
-        cout << "float " << " " << num - x;
+        cout << "float " << x << " " << num - x;
     }
 
     return 0;
