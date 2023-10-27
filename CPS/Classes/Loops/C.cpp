@@ -39,11 +39,11 @@ int main()
         else {
             o++;
         }
-        if (n < 0 ) {
-            ne++;
-        }
-        else {
+        if (n > 0 ) {
             p++;
+        }
+        else if (n < 0) {
+            ne++;
         }
     }
     cout << "Even: " << e<< '\n';
