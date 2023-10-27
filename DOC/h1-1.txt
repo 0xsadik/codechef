@@ -1,0 +1,28 @@
+<— Workshop —> 
+
+
+Subdomain enumeration 
+
+
+Subdomain enumeration basics 
+
+Recon 
+
+* Root domain secured, subdomain less secure 
+* Root domain much crowded, subdomain less crowded 
+* Subdomain enumeration for chaining bug 
+* More attach surface 
+
+
+Method -> reconless 
+	* main application 
+
+Passive: 
+	site.com information collection site.com without letting site know.
+	
+	downside:
+		you get what available only on internet
+		
+		3rd party source - censys 
+Active:
+    
