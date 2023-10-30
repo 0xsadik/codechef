@@ -43,3 +43,4 @@ int main()
     (cnt == 1) ? cout << "YES\n" : cout << "NO\n";
     return 0;
 }
+
