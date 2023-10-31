@@ -1,0 +1,2 @@
+https://github.com/Kartik-Mathur/LVCPPJune21/blob/main/Lecture-6/CheckPrime.cpp
+

@@ -59,20 +59,34 @@
 // }
 
 
+// #include<stdio.h>
+// int main()
+// {
+//     // block
+//     // Global type variable
+//     int i = 120;
+//     {
+//         // local scope 
+//         int j = 230;
+//         printf("%d\n", j);
+//     }
+
+//     printf("%d\n", i);
+    
+
+// }
+
+
+
 #include<stdio.h>
 int main()
 {
-    // block
-    // Global type variable
-    int i = 120;
-    {
-        // local scope 
-        int j = 230;
-        printf("%d\n", j);
-    }
+    int a, b;
+    a = 1;
+    b = a;
+    a = 2;
+    printf("%d\n", a);
 
-    printf("%d\n", i);
-    
-
+    return 0;
 }
 
