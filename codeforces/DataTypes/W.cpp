@@ -3,16 +3,34 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, ans;
+    int a, b, c;
     char s, q;
     cin >> a >> s >> b >> q >> c;
-    ans = a + b;
-    if (s == '+' && q == '='){
-        if (a + b != ans) {
-            cout << ans << '\n';
-        }
-        else {
+
+    if (s == '+' && q == '=') {
+        if (a + b == c) {
             cout << "Yes\n";
         }
+        else {
+            cout << a + b << '\n';
+        }
     }
+    else if (s == '-' && q == '=') {
+        if (a - b == c) {
+            cout << "Yes\n";
+        }
+        else {
+            cout << a - b << '\n';
+        }
+    }
+    else if (s == '*' && q == '=') {
+        if ( a * b == c) {
+            cout << "Yes\n";
+        }
+        else {
+            cout << a * b << '\n';
+        }
+    }
+
+    return 0;
 }

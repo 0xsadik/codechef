@@ -1,21 +1,33 @@
-/*
-    cnt = log10(num);
-    firstdig = num / pow(10, cnt);
-*/
+// #include<iostream>
+// using namespace std;
 
-#include<bits/stdc++.h>
+// int main()
+// {
+//     int num; cin >> num;
+//     while(num >= 10) {
+//         num /= 10;
+//     }
+//     if (num % 2 == 0) {
+//         cout << "EVEN\n";
+//     }
+//     else {
+//         cout << "ODD\n";
+//     }
+
+//     return 0;
+// }
+
+
+
+#include<iostream>
 using namespace std;
 
 int main()
 {
-    // let's find the first digit first 
-    int x, numcnt, firstDigit; cin >> x;
-    numcnt = log10(x);
-    firstDigit = x / pow(10, numcnt);
-    if (firstDigit % 2 == 0) {
-        cout << "EVEN\n";
-    }
-    else {
-        cout << "ODD\n";
-    }
-}  
+    int num; cin >> num;
+    while(num >= 10) num /= 10;
+    if (num % 2 == 0) cout << "EVEN\n";
+    else  cout << "ODD\n";
+
+    return 0;
+}

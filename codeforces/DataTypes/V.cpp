@@ -1,34 +1,37 @@
-#include<iostream>
+
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int a, b;
-    char sign;
-    cin >> a >> sign >> b;
-    if (sign == '>') {
-        if (a > b) {
+    char s;
+    cin >> a >> s >> b;
+
+    if (a > b)
+    {
+        if (s == '>')
+        {
             cout << "Right\n";
         }
-        else {
+        else
+        {
             cout << "Wrong\n";
         }
     }
-    else if (sign == '<') {
-        if (a < b) {
+    else if (a < b)
+    {
+        if (s == '<')
+        {
             cout << "Right\n";
         }
-        else {
+        else
+        {
             cout << "Wrong\n";
         }
     }
-    else if (sign == '=') {
-        if (a == b) {
-            cout << "Right\n";
-        }
-        else {
-            cout << "Wrong\n";
-        }
+    else {
+        cout << "Right\n";
     }
 
     return 0;

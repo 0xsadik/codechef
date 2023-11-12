@@ -1,4 +1,18 @@
-#include<bits/stdc++.h>
+// #include<iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int flag = 0, n; cin >> n;
+//     for(int i = 0; i <= n; i++) {
+//         flag += i;
+//     }
+//     cout << flag << '\n';
+// }
+
+
+
+#include<iostream>
 using namespace std;
 
 int main()

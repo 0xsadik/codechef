@@ -13,7 +13,9 @@ int main()
     else {
         cout << "float " << x << " " << num - x;
     }
+
     return 0;
 }
 
-// needa practice 
+
+

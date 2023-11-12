@@ -1,10 +1,12 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main()
 {
-    long long n, m; cin >> n >> m;
-    cout << (n % 10) + (m % 10) << '\n';
+    long long n, m, first, second; cin >> n >> m;
+    first = n % 10;
+    second = m % 10;
+    cout << first + second << '\n';
 
     return 0;
 }
