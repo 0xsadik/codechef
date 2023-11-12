@@ -3,6 +3,6 @@
 while true; do
     git add .
     git commit -m '<.>'
-    # git push
+    git push
     sleep 50
 done
