@@ -38,6 +38,8 @@
 #include<iostream>
 using namespace std;
 
+
+
 int main()
 {
     while (true) {
@@ -47,17 +49,9 @@ int main()
             break;
         }
 
-        if (n > m) {
-            for (int i = m; i <= n; i++) {
-                cout << i << ' ';
-                sum += i;
-            }
-        }
-        else {
-            for (int i = n; i <= m; i++) {
-                cout << i << ' ';
-                sum += i;
-            }
+        for (int i = n; i <= m; i++) {
+            cout << i << ' ';
+            sum += i;
         }
         cout << "sum =" << sum << '\n';
     }
