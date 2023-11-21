@@ -16,6 +16,11 @@ int main()
         for (int star = 0; star < 2 * i - 1; star++) {
             cout << '*';
         }
-        cout << '\n'
+        cout << '\n';
+    }
+
+    // down
+    for (int i = n - 1; i >= 0; i--) {
+        for (int space = 0; space < n - i; space++) {}
     }
 }
