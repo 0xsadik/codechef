@@ -114,7 +114,10 @@ using namespace std;
 int main() {
     long long a, b, c, d;
     cin >> a >> b >> c >> d;
-
+    int s1, s2, s3, s4, s5, s6, s7, s8;
+    s1 = a + b + c;
+    s2 = a + b - c;
+    s3 = 
     // Try all possible combinations of arithmetic operators
     if (a + b + c == d || a + b - c == d || a - b + c == d || a - b - c == d ||
         a * b * c == d || a * b / c == d || a / b * c == d || a / b / c == d) {
