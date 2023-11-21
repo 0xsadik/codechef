@@ -29,14 +29,14 @@ using namespace std;
 
 int main()
 {
-    int n, a, b, tsum = 0;
+    int n, a, b, sum = 0;
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++) {
-        int s = i, sum= 0;
+        int s = i, total= 0;
         while(s > 0) {
             int s2 = s % 10;
-            s += s2;
+            total += s2;
             s /= 10;
         }
         if (s >= a && s <= b) {
