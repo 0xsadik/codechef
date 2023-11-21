@@ -15,12 +15,13 @@ int main()
                 sum += i;
             }
         }
-        else if (n < m)(
+        else if (n < m){
             for (int i = n; i <= m; i++) {
                 cout << i << ' ';
                 sum += i;
             }
-        else {
+        }
+        else if (){
             break;
         }
         cout << "sum =" << sum << '\n';
