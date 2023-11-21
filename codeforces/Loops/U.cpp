@@ -13,9 +13,9 @@ int main()
             sum += i % 10;
             i /= 10;
             if (sum >= a && sum <= b) {
-                sum += i;
+                tsum += i;
             }
         }
     }
-    cout << sum << '\n';
+    cout << tsum << '\n';
 }
