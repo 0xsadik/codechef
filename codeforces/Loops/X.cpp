@@ -16,10 +16,10 @@ int main()
                 cal++;
             }
             n /= 2;
-            for (int i = 0; i < cal; i++) {
-                sum += pow(2, i);
-            }
-            cout << sum << '\n';
         }
+        for (int i = 0; i < cal; i++) {
+            sum += pow(2, i);
+        }
+        cout << sum << '\n';
     }
 }
