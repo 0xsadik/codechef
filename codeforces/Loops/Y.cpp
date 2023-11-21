@@ -11,8 +11,12 @@ int main() {
     farr[1] = 1;
 
     for (int i = 2; i < n; i++) {
-        farr[i] fib[i - 1] + fib[i - 2];
+        farr[i] = farr[i - 1] + farr[i - 2];
     }
 
+    for (int i = 0; i < n; i++) {
+        cout << farr[i] << ' ';
+    }
+    cout << '\n'
     return 0;
 }
