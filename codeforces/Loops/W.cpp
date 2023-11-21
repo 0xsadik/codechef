@@ -10,6 +10,12 @@ int main()
 
     // up
     for (int i = 0; i <= n; i++) {
-        for (int space = 0; space < n - i; )
+        for (int space = 0; space < n - i; space++) {
+            cout << ' ';
+        }
+        for (int star = 0; star < 2 * i - 1; star++) {
+            cout << '*';
+        }
+        cout << '\n'
     }
 }
