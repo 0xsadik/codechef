@@ -15,6 +15,8 @@ int main()
     }
     
     for (int i = 1; i <= n; i++) {
-        
+        if (num >= a && num <= b) {
+            tsum += i;
+        }
     }
 }
