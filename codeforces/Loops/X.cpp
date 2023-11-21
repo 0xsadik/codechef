@@ -14,8 +14,8 @@ int main()
         while(n > 0) {
             if (n % 2 == 1) {
                 cal++;
-                n /= 2;
             }
+            n /= 2;
             for (int i = 0; i < cal; i++) {
                 sum += pow(2, i);
             }
