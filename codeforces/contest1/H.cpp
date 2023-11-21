@@ -26,7 +26,7 @@
 
 
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -35,7 +35,9 @@ int main()
     cin >> n >> k >> a;
 
     long long result = 1LL * n * k * a;
-    if (result )
+    if (result <= INT_MAX && result >= INT_MIN) {
+        cout << "int\n";
+    }
 
     return 0;
 }
