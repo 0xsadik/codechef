@@ -10,5 +10,10 @@ int main()
 
     bool tr = true;
     bool fl = false;
-    if (n <= 0 || m <= 0)
+    if (n <= 0 || m <= 0) {
+        fl;
+    }
+    else {
+        tr;
+    }
 }
