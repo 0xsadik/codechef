@@ -9,6 +9,12 @@ int main()
     cin >> n >> a >> b;
 
     int num = 0;
+    while(num > 0) {
+        sum += num % 10;
+        num /= 10;
+    }
     
-    cout << tsum << '\n';
+    for (int i = 1; i <= n; i++) {
+        
+    }
 }
