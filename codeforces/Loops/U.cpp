@@ -9,11 +9,11 @@ int main()
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++ ) {
-        sum += i % 10;
-        i /= 10;
-        if (sum >= a && sum <= b) {
-            sum += i;
-        }
+            sum += i % 10;
+            i /= 10;
+            if (sum >= a && sum <= b) {
+                sum += i;
+            }
     }
     cout << sum << '\n';
 }
