@@ -7,7 +7,6 @@ int main()
 {
     int n;
     cin >> n;
-
     // up
     for (int i = 0; i <= n; i++) {
         for (int space = 0; space < n - i; space++) {
@@ -18,7 +17,6 @@ int main()
         }
         cout << '\n';
     }
-
     // down
     for (int i = n - 1; i >= 0; i--) {
         for (int space = 0; space < n - i; space++) {
@@ -29,6 +27,6 @@ int main()
         }
         cout << '\n';
     }
-    
+
     return 0;
 }
