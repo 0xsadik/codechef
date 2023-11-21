@@ -121,10 +121,10 @@ int main() {
     s4 = a - b - c;
     s5 = a * b * c;
     s6 = a * b / c;
-    s7 = 
+    s7 = a / b * c;
+    s8 = a / b / c;
     // Try all possible combinations of arithmetic operators
-    if (a + b + c == d || a + b - c == d || a - b + c == d || a - b - c == d ||
-        a * b * c == d || a * b / c == d || a / b * c == d || a / b / c == d) {
+    if (s1 == ) {
         cout << "YES" << endl;
     } else {
         cout << "NO" << endl;
