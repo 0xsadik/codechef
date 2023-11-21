@@ -18,7 +18,7 @@ int main()
                 sum += i;
             }
         }
-        else{
+        else {
             for (int i = n; i <= m; i++) {
                 cout << i << ' ';
                 sum += i;
