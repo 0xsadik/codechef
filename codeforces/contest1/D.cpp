@@ -106,66 +106,22 @@
 
 
 
-// #include <iostream>
-// #include <algorithm>
-
-// using namespace std;
-
-// int main() {
-//     long long a, b, c, d;
-//     cin >> a >> b >> c >> d;
-
-//     // Try all possible combinations of arithmetic operators
-//     if (a + b + c == d || a + b - c == d || a - b + c == d || a - b - c == d ||
-//         a * b * c == d || a * b / c == d || a / b * c == d || a / b / c == d) {
-//         cout << "YES" << endl;
-//     } else {
-//         cout << "NO" << endl;
-//     }
-
-//     return 0;
-// }
-
-
-
-
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
 int main() {
-  int a, b, c, d;
-  cin >> a >> b >> c >> d;
+    long long a, b, c, d;
+    cin >> a >> b >> c >> d;
 
-  bool found = false;
+    // Try all possible combinations of arithmetic operators
+    if (a + b + c == d || a + b - c == d || a - b + c == d || a - b - c == d ||
+        a * b * c == d || a * b / c == d || a / b * c == d || a / b / c == d) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
 
-  // Check for addition
-  if (a + b + c == d) {
-    cout << "YES" << endl;
-    found = true;
-  }
-
-  // Check for subtraction
-  if (a - b - c == d) {
-    cout << "YES" << endl;
-    found = true;
-  }
-
-  // Check for multiplication
-  if (a * b * c == d) {
-    cout << "YES" << endl;
-    found = true;
-  }
-
-  // Check for division
-  if (a / b / c == d) {
-    cout << "YES" << endl;
-    found = true;
-  }
-
-  if (!found) {
-    cout << "NO" << endl;
-  }
-
-  return 0;
+    return 0;
 }
