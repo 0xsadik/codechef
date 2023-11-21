@@ -11,5 +11,8 @@ int main()
 
     long long mn = min({n, m, k});
     ans += mn;
-    n = 
+    n = n - mn;
+    m = m - mn;
+    k = k - mn;
+    mn = min(n / 2, k);
 }
