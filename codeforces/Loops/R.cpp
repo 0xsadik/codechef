@@ -5,16 +5,19 @@ using namespace std;
 
 int main()
 {
-    int n, m, sum = 0;
-    cin >> n >> m;
+    while (true) {
+        int n, m, sum = 0;
+        cin >> n >> m;
 
-    bool tr = true;
-    bool fl = false;
-    if (n <= 0 || m <= 0) {
-        fl;
+        if (n > m) {
+            for (int i = m; i <= n; i++) {
+                cout << i << ' ';
+                sum += i;
+            }
+        }
+        else {
+            break;
+        }
+        cout << "sum =" << sum << '\n';
     }
-    else {
-        tr;
-    }
-    
 }
