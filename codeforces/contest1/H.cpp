@@ -34,7 +34,7 @@ int main()
     double n, k, a;
     cin >> n >> k >> a;
 
-    long long result = 1LL * n * k * a;
+    long long result = (n * k) / a;
     if (result <= INT_MAX && result >= INT_MIN) {
         cout << "int\n";
     }
