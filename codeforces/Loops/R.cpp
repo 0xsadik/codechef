@@ -8,6 +8,9 @@ int main()
     while (true) {
         int n, m, sum = 0;
         cin >> n >> m;
+        if (n <= 0 || m <= 0){
+            break;
+        }
 
         if (n > m) {
             for (int i = m; i <= n; i++) {
@@ -20,9 +23,6 @@ int main()
                 cout << i << ' ';
                 sum += i;
             }
-        }
-        else if (n <= 0 || m <= 0){
-            break;
         }
         cout << "sum =" << sum << '\n';
     }
