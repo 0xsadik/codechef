@@ -33,9 +33,11 @@ int main()
     cin >> n;
 
     int v1 = 0, v2 = 1;
-    for (int i = 0; i < n; i++) {
+    for (int i = 2; i < n; i++) {
         int tmp = v1;
         v1 = v2;
         v2 = tmp + v2;
     }
+
+    for (int i )
 }
