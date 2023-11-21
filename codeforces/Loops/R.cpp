@@ -48,7 +48,8 @@ int main()
 
         int tmp;
         tmp = n;
-        m = 
+        n = m;
+        m = tmp;
 
         if (n <= 0 || m <= 0){
             break;
