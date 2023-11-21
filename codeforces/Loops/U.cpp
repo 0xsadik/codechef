@@ -1,4 +1,9 @@
 // some sums 
 
-#include<iosream>
-using namespace 
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    
+}
