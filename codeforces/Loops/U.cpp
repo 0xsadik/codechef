@@ -40,7 +40,8 @@ int main()
             s /= 10;
         }
         if (s >= a && s <= b) {
-            
+            sum += i;
         }
     }
+    cout << sum << '\n';
 }
