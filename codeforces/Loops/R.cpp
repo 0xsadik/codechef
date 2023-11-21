@@ -45,6 +45,9 @@ int main()
     while (true) {
         int n, m, sum = 0;
         cin >> n >> m;
+
+        swap(n, m);
+
         if (n <= 0 || m <= 0){
             break;
         }
