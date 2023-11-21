@@ -10,5 +10,5 @@ int main()
 
     bool tr = true;
     bool fl = false;
-    if (n < )
+    if (n <= 0 || m <= 0)
 }
