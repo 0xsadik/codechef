@@ -13,5 +13,12 @@ int main()
     if (t > 0) {
         cout << "double\n";
     }
-    else if (q >)
+    else if (q > 2147483647) {
+        cout << "long long\n";
+    }
+    else {
+        cout << "int\n";
+    }
+
+    return 0;
 }
