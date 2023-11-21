@@ -9,5 +9,9 @@ int main()
     cin >> n >> k >> a;
 
     long long f = (k * a) / a;
-    double q = 
+    double q = (k * n) / a, t = q - f;
+    if (t > 0) {
+        cout << "double\n";
+    }
+    else if (q >)
 }
