@@ -32,19 +32,7 @@ int main()
     int n, a, b, sum = 0;
     cin >> n >> a >> b;
 
-    for (int i = 1; i <= n; i++) {
-        int s = i, total= 0;
-        while(s > 0) {
-            int s2 = s % 10;
-            total += s2;
-            s /= 10;
-        }
-        if (s >= a && s <= b) {
-            sum += i;
-        }
-    }
-    cout << sum << '\n';
-    return 0;
+    
 }
 
 
