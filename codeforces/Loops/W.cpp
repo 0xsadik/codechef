@@ -18,7 +18,7 @@ int main()
         cout << '\n';
     }
     // down
-    for (int i = 1; i >= 0; i--) {
+    for (int i = n; i > 0; i--) {
         for (int space = 0; space < n - i; space++) {
             cout << ' ';
         }
