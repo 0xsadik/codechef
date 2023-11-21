@@ -29,7 +29,7 @@ using namespace std;
 
 int main()
 {
-    int n, a, b;
+    int n, a, b, tsum = 0;
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++) {
