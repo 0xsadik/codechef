@@ -26,4 +26,5 @@ int main()
         }
         cout << "sum =" << sum << '\n';
     }
+    return 0;
 }
