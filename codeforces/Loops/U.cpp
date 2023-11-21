@@ -35,7 +35,12 @@ int main()
     for (int i = 1; i <= n; i++) {
         int s = i, sum= 0;
         while(s > 0) {
-            int s2 = 
+            int s2 = s % 10;
+            s += s2;
+            s /= 10;
+        }
+        if (s >= a && s <= b) {
+            
         }
     }
 }
