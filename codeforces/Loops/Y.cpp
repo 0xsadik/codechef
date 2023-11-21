@@ -29,5 +29,6 @@ using namespace std;
 
 int main()
 {
+    int v1 = 0, v2 = 1;
     
 }
