@@ -37,7 +37,10 @@ int main()
         int tmp = v1;
         v1 = v2;
         v2 = tmp + v2;
+        cout << i << ' '
     }
 
-    for (int i )
+    // for (int i = 0; i < n; i++) {
+    //     cout << i << ' ';
+    // }
 }
