@@ -10,7 +10,8 @@ int main()
 
     if (n > m) {
         for (int i = m; i <= n; i++) {
-            cout << i << '\n';
+            cout << i << ' ';
+            if 
         }
     }
 }
