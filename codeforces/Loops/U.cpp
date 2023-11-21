@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n, a, b, sum = 0, tsum = 0;
+    int n, a, b, tsum = 0;
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++) {
@@ -15,7 +15,7 @@ int main()
             num /= 10;
         }
 
-        if (tsum >= a && tsum <= b) {
+        if (sum >= a && sum <= b) {
             tsum += i;
         }
     }
