@@ -119,7 +119,6 @@ int main() {
     s2 = a + b - c;
     s3 = a - b + c;
     s4 = a - b - c;
-    s5 = a * b * c;
     s6 = a * b / c;
     s7 = a / b * c;
     s8 = a / b / c;
