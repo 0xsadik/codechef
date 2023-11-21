@@ -24,17 +24,32 @@
 
 
 
-#include<iostream>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-    int n, a, b, sum = 0;
-    cin >> n >> a >> b;
-
-    
+bool isInRange(int num, int a, int b) {
+  int sumOfDigits = 0;
+  while (num > 0) {
+    sumOfDigits += num % 10;
+    num /= 10;
+  }
+  return a <= sumOfDigits && sumOfDigits <= b;
 }
 
+int main() {
+  int n, a, b;
+  std::cin >> n >> a >> b;
+
+  int sum = 0;
+  for (int i = 1; i <= n; ++i) {
+    if (isInRange(i, a, b)) {
+      sum += i;
+    }
+  }
+
+  std::cout << sum << std::endl;
+
+  return 0;
+}
 
 // #include <iostream>
 
