@@ -123,8 +123,7 @@ int main() {
     s6 = a * b / c;
     s7 = a / b * c;
     s8 = a / b / c;
-    // Try all possible combinations of arithmetic operators
-    if (s1 == ) {
+    if (s1 == d || s2 == d || s3 == d || s4 == d || s5 == d || s6 == d || s7 == d || s8 == d) {
         cout << "YES" << endl;
     } else {
         cout << "NO" << endl;
