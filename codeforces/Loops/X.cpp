@@ -1,6 +1,6 @@
 // convert to decimal 2 
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -12,7 +12,13 @@ int main()
         long long sum = 0;
         cin >> n;
         while(n > 0) {
-            if (n)
+            if (n % 2 == 1) {
+                cal++;
+                n /= 2;
+            }
+            for (int i = 0; i < cal; i++) {
+                sum += pow(2, )
+            }
         }
     }
 }
