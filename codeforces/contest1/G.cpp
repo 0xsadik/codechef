@@ -1,7 +1,7 @@
 
 // katryoshka 
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -9,5 +9,7 @@ int main()
     long long n, m, k, ans = 0;
     cin >> n >> m >> k;
 
-    
+    long long mn = min({n, m, k});
+    ans += mn;
+    n = 
 }
