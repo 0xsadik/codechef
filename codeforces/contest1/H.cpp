@@ -38,6 +38,12 @@ int main()
     if (result <= INT_MAX && result >= INT_MIN) {
         cout << "int\n";
     }
+    else if (result <= LLONG_MAX && result >= LLONG_MIN) {
+        cout << "long long\n";
+    }
+    else {
+        cout << "double\n";
+    }
 
     return 0;
 }
