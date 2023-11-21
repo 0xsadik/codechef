@@ -15,6 +15,7 @@ int main()
             if (sum >= a && sum <= b) {
                 sum += i;
             }
+        }
     }
     cout << sum << '\n';
 }
