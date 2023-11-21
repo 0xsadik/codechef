@@ -33,6 +33,9 @@ int main()
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++) {
-        int x = i; 
+        int s = i, sum= 0;
+        while(s > 0) {
+            int s2 = 
+        }
     }
 }
