@@ -12,7 +12,9 @@ int main()
         while(i > 0) {
             sum += i % 10;
             i /= 10;
+        if (sum >= a && sum < b= b) {
+            sum += i;
         }
-        if ()
+        }
     }
 }
