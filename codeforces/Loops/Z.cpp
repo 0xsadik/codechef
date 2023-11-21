@@ -10,7 +10,9 @@ int main()
 
     for (int x = 0; x <= k; x++) {
         for (int y = 0; y <= k; y++) {
-            
+            if (s - x - y >= 0 && s - x - y <= k) {
+                cnt++;
+            }
         }
     }
     cout << cnt << '\n';
