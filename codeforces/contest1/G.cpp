@@ -15,4 +15,6 @@ int main()
     m = m - mn;
     k = k - mn;
     mn = min(n / 2, k);
+    ans += mn;
+    cout << ans << '\n';
 }
