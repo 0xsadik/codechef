@@ -11,7 +11,7 @@ int main()
     for (int i = 1; i <= n; i++) {
         int num = i;
         while (num > 0) {
-            tsum += num % 10;
+            sum += num % 10;
             num /= 10;
         }
 
