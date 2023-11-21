@@ -10,6 +10,9 @@ int main()
 
     td = n / 10;
     ud = n % 10;
+    if (ud == 0) {
+        cout << "YES\n";
+    }
 
     (td % ud == 0 || ud % td == 0) ? cout << "YES\n" : cout << "NO\n";
     return 0;
