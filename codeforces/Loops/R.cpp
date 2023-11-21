@@ -15,6 +15,9 @@ int main()
                 sum += i;
             }
         }
+        else if (
+            int 
+        )
         else {
             break;
         }
