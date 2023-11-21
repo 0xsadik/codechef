@@ -11,7 +11,8 @@ int main()
     if (n > m) {
         for (int i = m; i <= n; i++) {
             cout << i << ' ';
-            if 
+            sum += i;
         }
     }
+    cout << "sum =" << sum << '\n';
 }
