@@ -23,7 +23,6 @@ int main()
         }
         else if (n <= 0 || m <= 0){
             break;
-            return 0;
         }
         cout << "sum =" << sum << '\n';
     }
