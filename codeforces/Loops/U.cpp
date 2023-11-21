@@ -9,16 +9,16 @@ int main()
     cin >> n >> a >> b;
 
     for (int i = 1; i <= n; i++) {
-        while(i > 0) {
-            tsum += i % 10;
-            i /= 10;
+        int num = i;
+        while (num > 0) {
+            tsum
         }
 
         if (tsum >= a && tsum <= b) {
             tsum += i;
         }
     }
-    cout << t
+    cout << tsum << '\n';
 }
 
 
