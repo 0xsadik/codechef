@@ -19,4 +19,5 @@ int main()
             tsum += i;
         }
     }
+    cout << tsum << '\n';
 }
