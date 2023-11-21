@@ -34,7 +34,8 @@ int main()
     double n, k, a;
     cin >> n >> k >> a;
 
-    
+    long long result = 1LL * n * k * a;
+    if (result )
 
     return 0;
 }
