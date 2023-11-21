@@ -10,9 +10,15 @@ int main()
 
     for (int i = 1; i <= n; i++) {
         while(i > 0) {
-            
+            tsum += i % 10;
+            i /= 10;
+        }
+
+        if (tsum >= a && tsum <= b) {
+            tsum += i;
         }
     }
+    cout << t
 }
 
 
