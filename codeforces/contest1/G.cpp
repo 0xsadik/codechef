@@ -17,4 +17,6 @@ int main()
     mn = min(n / 2, k);
     ans += mn;
     cout << ans << '\n';
+
+    return 0;
 }
