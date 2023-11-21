@@ -5,7 +5,10 @@ using namespace std;
 
 int main()
 {
+    int n, m, sum = 0;
+    cin >> n >> m;
+
     bool tr = true;
     bool fl = false;
-    if ()
+    if (n < )
 }
