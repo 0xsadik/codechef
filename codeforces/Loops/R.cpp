@@ -15,8 +15,10 @@ int main()
                 sum += i;
             }
         }
-        else if (
-            int 
+        else if (n < m)(
+            for (int i = n; i <= m; i++) {
+                
+            }
         )
         else {
             break;
