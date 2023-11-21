@@ -17,9 +17,9 @@ int main()
         }
         else if (n < m)(
             for (int i = n; i <= m; i++) {
-                
+                cout << i << ' ';
+                sum += i;
             }
-        )
         else {
             break;
         }
