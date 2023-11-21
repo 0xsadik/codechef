@@ -11,8 +11,8 @@ int main()
     for (int x = 0; x <= k; x++) {
         for (int y = 0; y <= k; y++) {
             for (int z = 0; z <= k; z++) {
-                if (x + y + z == s) {
-                    
+                if (s - x - y >= 0 && s - x - y) {
+                    cnt += 1;
                 }
             }
         }
