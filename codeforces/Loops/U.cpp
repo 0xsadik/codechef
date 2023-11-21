@@ -21,6 +21,8 @@ int main()
         }
     }
     cout << tsum << '\n';
+
+    return 0;
 }
 
 
