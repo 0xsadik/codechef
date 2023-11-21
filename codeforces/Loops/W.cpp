@@ -8,7 +8,7 @@ int main()
     int n;
     cin >> n;
     // up
-    for (int i = 0; i <= n; i++) {
+    for (int i = 1; i <= n; i++) {
         for (int space = 0; space < n - i; space++) {
             cout << ' ';
         }
