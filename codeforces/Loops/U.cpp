@@ -10,12 +10,13 @@ int main()
 
     for (int i = 1; i <= n; i++) {
         int num = i;
+        int dsum = 0;
         while (num > 0) {
-            sum += num % 10;
+            dsum += num % 10;
             num /= 10;
         }
 
-        if (sum >= a && sum <= b) {
+        if (dsum >= a && dsum <= b) {
             tsum += i;
         }
     }
