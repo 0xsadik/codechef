@@ -19,6 +19,7 @@ int main()
             for (int i = 0; i < cal; i++) {
                 sum += pow(2, i);
             }
+            cout << sum << '\n';
         }
     }
 }
