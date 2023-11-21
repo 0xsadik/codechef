@@ -17,7 +17,7 @@ int main()
                 n /= 2;
             }
             for (int i = 0; i < cal; i++) {
-                sum += pow(2, )
+                sum += pow(2, i);
             }
         }
     }
