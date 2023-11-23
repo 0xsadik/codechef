@@ -35,19 +35,5 @@ int main()
     int t; 
     cin >> t;
 
-    int mf = 0;
-    while(t--) {
-        int x;
-        cin >> x;
-
-        int f = 0;
-        while(x % 2 == 0) {
-            x /= 2;
-            f++;
-        }
-        mf = max(mf, f);
-    }
-    cout << mf << '\n';
-
     return 0;
 }
