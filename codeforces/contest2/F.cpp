@@ -48,11 +48,15 @@ int main()
                     break;
                 }
                 else {
-                    
+                    count++;
+                    n /= 2;
                 }
             }
         }
+        if (count > result) {
+            result = count;
+        }
     }
-
+    cout << result << '\n';
     return 0;
 }
