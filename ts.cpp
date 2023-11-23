@@ -27,17 +27,19 @@
 
 
 
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
-int main()
-{
-    int t, x, y, n;
-    cin >> t;
-    while(t--) {
-        cin >> x >> y;
+// int main()
+// {
+//     int t, x, y, n;
+//     cin >> t;
+//     while(t--) {
+//         cin >> x >> y;
 
-        n = x + y;
-        (y <= (n / 2)) ? cout << n << '\n' : cout << n + 2 * (y - (n / 2)) - 1 << '\n';
-    }
-}
+//         n = x + y;
+//         (y <= (n / 2)) ? cout << n << '\n' : cout << n + 2 * (y - (n / 2)) - 1 << '\n';
+//     }
+// }
+
+
