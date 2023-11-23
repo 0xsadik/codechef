@@ -32,11 +32,11 @@ using namespace std;
 
 int main()
 {
-    int n; 
-    cin >> n;
+    int t; 
+    cin >> t;
 
     int mf = 0;
-    while(n--) {
+    while(t--) {
         int x;
         cin >> x;
 
