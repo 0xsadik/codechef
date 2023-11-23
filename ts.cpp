@@ -52,7 +52,11 @@ int main()
     cin >> n;
 
     for (int i = 0; i < n; i++) {
-        for (int )
+        for (int j = 0; i < n; j++) {
+            if (i == j && i != n / 2 && j != n / 2) {
+                cout << 
+            }
+        }
     }
 }
 
