@@ -39,7 +39,19 @@ int main()
         int count = 0;
         long long n;
         cin >> n;
-        
+        if (n % 2 != 0) {
+            count = 0;
+        }
+        else {
+            while(n > 0) {
+                if (n % 2 != 0) {
+                    break;
+                }
+                else {
+                    
+                }
+            }
+        }
     }
 
     return 0;
