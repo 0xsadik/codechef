@@ -15,6 +15,12 @@ int main()
         cin >> value;
         if (flag) {
             min = value;
+            flag = 0;
+        }
+        else {
+            if (value < min) {
+                min = value;
+            }
         }
     }
 }
