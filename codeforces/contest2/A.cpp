@@ -1,4 +1,6 @@
 
+// Timon and pumbaa
+
 #include<iostream>
 using namespace std;
 
@@ -8,6 +10,6 @@ int main()
     cin >> a >> b;
 
     (a > b) ? cout << a - b << '\n' : cout << 0 << '\n';
-    
+
     return 0;
 }
