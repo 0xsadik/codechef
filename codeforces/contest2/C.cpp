@@ -10,5 +10,11 @@ int main()
 
     int min;
     int flag = 1;
-    
+    for (int i = 1; i <= n; i++) {
+        int value;
+        cin >> value;
+        if (flag) {
+            min = value;
+        }
+    }
 }
