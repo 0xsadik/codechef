@@ -10,6 +10,7 @@ int main()
 
     int min;
     int flag = 1;
+    int count = 0;
     for (int i = 1; i <= n; i++) {
         int value;
         cin >> value;
@@ -21,6 +22,10 @@ int main()
             if (value < min) {
                 min = value;
             }
+        }
+        count++;
+        if (counter == 3) {
+            cout << min
         }
     }
 }
