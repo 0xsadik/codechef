@@ -24,7 +24,7 @@ int main()
             }
         }
         count++;
-        if (count == 3 || i == ) {
+        if (count == k || i == n) {
             cout << min << ' ';
             count = 0;
             flag = 1;
