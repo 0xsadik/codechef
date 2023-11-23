@@ -15,6 +15,7 @@ int main()
         for (int i = l; i <= r; i++) {
             sum += i;
         }
+        cout << sum << '\n';
     }
-    cout << sum << '\n';
+    return 0;
 }
