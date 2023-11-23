@@ -30,4 +30,5 @@ int main()
             flag = 1;
         }
     }
+    return 0;
 }
