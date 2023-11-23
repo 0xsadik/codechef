@@ -5,7 +5,10 @@ using namespace std;
 
 int main()
 {
-    int n, se;
-    cin >> s >> se;
+    int n, k;
+    cin >> n >> k;
 
+    int min;
+    int flag = 1;
+    
 }
