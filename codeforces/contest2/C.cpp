@@ -24,8 +24,10 @@ int main()
             }
         }
         count++;
-        if (counter == 3) {
-            cout << min
+        if (count == 3) {
+            cout << min << ' ';
+            count = 0;
+            flag = 1;
         }
     }
 }
