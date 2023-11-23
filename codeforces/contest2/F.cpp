@@ -32,8 +32,15 @@ using namespace std;
 
 int main()
 {
-    int t; 
+    int t, result = 0; 
     cin >> t;
+
+    while(t--) {
+        int count = 0;
+        long long n;
+        cin >> n;
+        
+    }
 
     return 0;
 }
