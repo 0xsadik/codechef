@@ -57,9 +57,14 @@ int main()
                 cout << "\\";
             }
             else if (i == n / 2 && j == n / 2 ) {
-                cout << "X";
+                cout << 'X';
             }
-            else if (j != n  / 2 && i == ((n )))
+            else if (j != n  / 2 && i == ((n - 1) - j)) {
+                cout << '/';
+            }
+            else {
+                cout << '*';
+            }
         }
     }
 }
