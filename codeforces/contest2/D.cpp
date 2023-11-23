@@ -31,9 +31,10 @@ int main()
     int t;
     cin >> t;
     while(t--) {
-        int l, r;
+        long long l, r, m, mi;
         cin >> l >> r;
 
-        
+        m = max(l, r);
+        mi = min(l, r);
     }
 }
