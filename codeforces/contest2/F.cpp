@@ -18,6 +18,9 @@ int main()
             x /= 2;
             f++;
         }
-        mf = mx(max)
+        mf = max(mf, f);
     }
+    cout << mf << '\n';
+
+    return 0;
 }
