@@ -39,5 +39,9 @@ int main()
         mi--;
         ans1 = mi * (mi + 1) / 2;
         ans2 = m * (m + 1) / 2;
+
+        cout << ans2 - ans1 << '\n';
     }
+
+    return 0;
 }
