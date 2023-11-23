@@ -13,7 +13,8 @@ int main()
         cin >> l >> r;
 
         for (int i = l; i <= r; i++) {
-            
+            sum += i;
         }
     }
+    cout << sum << '\n';
 }
