@@ -14,8 +14,11 @@ int main()
     long long x; cin >> x;
     int flag = 0;
     for (int i = 0; i < n; i++) {
-        
+        if (arr[i] == x) {
+            flag++;
+        }
     }
+    
 
     return 0;
 }
