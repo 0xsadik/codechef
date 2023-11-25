@@ -12,10 +12,10 @@ int main()
         cin >> arr[i];
     }
     long long x; cin >> x;
-    int flag = 0;
+    bool flag = true;
     for (int i = 0; i < n; i++) {
         if (arr[i] == x) {
-            flag++;
+            cout << i << '\n';
         }
     }
 
