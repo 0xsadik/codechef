@@ -21,7 +21,7 @@ int main()
         }
     }
     if (flag == false) {
-        cout << 
+        cout << -1 << '\n';
     }
     return 0;
 }
