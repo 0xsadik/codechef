@@ -18,7 +18,6 @@ int main()
             flag++;
         }
     }
-    
 
     return 0;
 }
