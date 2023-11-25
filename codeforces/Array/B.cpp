@@ -12,7 +12,10 @@ int main()
         cin >> arr[i];
     }
     long long x; cin >> x;
-    
+    int flag = 0;
+    for (int i = 0; i < n; i++) {
+        
+    }
 
     return 0;
 }
