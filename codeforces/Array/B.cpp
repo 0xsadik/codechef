@@ -14,5 +14,10 @@ int main()
         cin >> arr[i];
     }
 
-    int 
+    int x;
+    cin >> x;
+    bool match = false;
+    for (int i = 0; i < n; i++) {
+        if (arr)
+    }
 }
