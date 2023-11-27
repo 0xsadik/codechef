@@ -18,6 +18,14 @@ int main()
     cin >> x;
     bool match = false;
     for (int i = 0; i < n; i++) {
-        if (arr)
+        if (arr[i] == x) {
+            cout << i << '\n';
+            match = true;
+            break;
+        }
     }
+    if (!match) {
+        cout << -1 << '\n';
+    }
+    return 0;
 }
