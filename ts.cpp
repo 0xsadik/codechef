@@ -96,19 +96,76 @@
 
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
-double add(double n1, double n2) {
-    double sum = n1 + n2;
-    return sum;
-} 
+// double add(double n1, double n2) {
+//     double sum = n1 + n2;
+//     return sum;
+// } 
+
+// int main()
+// {
+//     double a, b, c;
+//     a = b = 2.5;
+//     c = add(a, b);
+    
+//     printf("%0.2lf\n", c);
+//     return 0;
+// }
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main()
+// {
+//     int t;
+//     cin >> t;
+//     while(t--) {
+//         int n, x, k, bg, gg, tg, bleft, gleft, gd, br, gr, tr;
+//         cin >> n >> x >> k;
+
+//         bg = x / k;
+//         gg = (n - x) / k;
+//         tg = bg + gg;
+//         bleft = x % k;
+//         gleft = (n - x) % k;
+//         gd = min(bleft, gleft);
+//         br = bleft - gd;
+//         gr = gleft - gd;
+        
+//         tr = br + gr;
+//         cout << tr << '\n';
+//     }
+//     return 0;
+// }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
 
 int main()
 {
-    double a, b, c;
-    a = b = 2.5;
-    c = add(a, b);
-    
-    printf("%0.2lf\n", c);
-    return 0;
+    int t;
+    scanf("%d", &t);
+
+    while(t--) {
+        int a, b, tmp;
+        scanf("%d %d", &a, &b);
+        if (a > b) {
+            tmp = b;
+            b = a;
+            a = tmp % a;
+        }
+        else if (b != 0) {
+            tmp = a;
+            a = b;
+            b = tmp % b;
+        }
+        int  marbeldistrib = min(a, b);
+       printf("%d\n", marbeldistrib);
+    }
 }
